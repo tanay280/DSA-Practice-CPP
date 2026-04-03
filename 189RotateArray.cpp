@@ -16,36 +16,9 @@ int main()
     cout << "Enter the target :";
     cin >> k;
     k = k % n;
-    int i = 0;
-    int j = n ;
-    while (i < j)
-    {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-        i++;
-        j--;
-    }
-    i = 0;
-    j = 0+k;
-    while (i < j)
-    {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-        i++;
-        j--;
-    }
-    i = 0+k;
-    j = n;
-    while (i < j)
-    {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-        i++;
-        j--;
-    }
+    reverse(arr, arr+n);
+    reverse(arr, arr + k);
+    reverse(arr + k, arr + n);
 
     for (int i = 0; i < n; i++)
     {
