@@ -12,3 +12,19 @@ This repository contains Data Structures and Algorithms (DSA) problems solved in
 *Browse the repository
 *Open files to view solutions
 Run using any Java IDE or terminal
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+|  |
+| ------- |
+| [0856-score-of-parentheses](https://github.com/tanay280/DSA-Practice-CPP/tree/master/0856-score-of-parentheses) |
+## Stack
+|  |
+| ------- |
+| [0856-score-of-parentheses](https://github.com/tanay280/DSA-Practice-CPP/tree/master/0856-score-of-parentheses) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0856-score-of-parentheses](https://github.com/tanay280/DSA-Practice-CPP/tree/master/0856-score-of-parentheses) |
+<!---LeetCode Topics End-->
